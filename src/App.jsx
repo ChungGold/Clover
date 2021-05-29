@@ -1,5 +1,7 @@
+import { Nav } from './components/Nav'
+
 export const App = () => {
     return (
-        <h1>yo</h1>
+        <Nav />
     )
 }
