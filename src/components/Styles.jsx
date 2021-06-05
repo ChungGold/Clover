@@ -5,14 +5,18 @@ const Container = styled.div`
     height: 100%;
 
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-flow: column wrap;
 
     background-color: #A6F6C9;
 `
 
 const Header = styled.header`
     width: 100%;
+    height: 2.5%;
+
+    background-color: white;
+    color: black;
 `
 
 const Nav = styled.nav`
@@ -35,4 +39,4 @@ const Footer = styled.footer`
 
 `
 
-export { Container }
+export { Container, Header }
