@@ -1,7 +1,9 @@
-import { Nav } from './components/Nav'
+import { Container } from './components/Styles'
 
 export const App = () => {
     return (
-        <Nav />
+        <Container>
+
+        </Container>
     )
 }

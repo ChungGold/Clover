@@ -1,26 +1,38 @@
 import styled from 'styled-components'
 
-const Navigation = styled.ul`
-    list-style-type: none;
+const Container = styled.div`
+    width: 100%;
+    height: 100%;
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #A6F6C9;
 `
 
-const Item = styled.li`
-    display: inline;
+const Header = styled.header`
+    width: 100%;
 `
 
-const Link = styled.a`
-    color: grey;
-
-    :visited {
-        color: grey;
-    }
-
-    :hover {
-        color: black;
-    }
+const Nav = styled.nav`
+    width: 100%;
 `
 
-export { Navigation, Item, Link }
+const Main = styled.main`
+
+`
+
+const Order = styled.section`
+
+`
+
+const Menu = styled.section`
+
+`
+
+const Footer = styled.footer`
+
+`
+
+export { Container }
