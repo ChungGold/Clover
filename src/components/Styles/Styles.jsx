@@ -17,10 +17,16 @@ const Header = styled.header`
 
     background-color: white;
     color: black;
+
+    border-bottom: green 1px solid;
 `
 
 const Nav = styled.nav`
     width: 100%;
+    height: 7.5%;
+
+    background-color: white;
+    color: gray;
 `
 
 const Main = styled.main`
@@ -39,4 +45,4 @@ const Footer = styled.footer`
 
 `
 
-export { Container, Header }
+export { Container, Header, Nav }

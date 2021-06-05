@@ -1,15 +1,12 @@
-import { Container, Header } from './components/Styles'
-import { AiFillPrinter } from 'react-icons/ai'
-import { MdBatteryChargingFull, MdSignalWifi4Bar } from 'react-icons/md'
+import { Container } from './components/Styles/Styles'
+import { Head } from './components/Header'
+import { Navigation } from './components/Navigation'
 
 export const App = () => {
     return (
         <Container>
-            <Header>
-                <AiFillPrinter />
-                <MdBatteryChargingFull />
-                <MdSignalWifi4Bar />
-            </Header>
+            <Head />
+            <Navigation />
         </Container>
     )
 }
