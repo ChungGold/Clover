@@ -7,14 +7,21 @@ import { BiDotsVerticalRounded } from 'react-icons/bi'
 export const Navigation = () => {
     return (
         <Nav>
-            <GiHamburgerMenu />
-            <FaCashRegister />
-            <span>Register</span>
-            <span><FaSearch /> Scan barcode or search</span>
-            <span>ORDERS</span>
-            <RiAddLine />
-            <RiRefreshLine />
-            <BiDotsVerticalRounded />
+            <span>
+                <GiHamburgerMenu />
+                <FaCashRegister />
+                <span>Register</span>
+            </span>
+            <span>
+                <form>
+                    <label><FaSearch /></label>
+                    <input type="text" placeholder="Scan barcode or search" />
+                </form>
+                <span>ORDERS</span>
+                <RiAddLine />
+                <RiRefreshLine />
+                <BiDotsVerticalRounded />
+            </span>
         </Nav>
     )
 }

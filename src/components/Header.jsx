@@ -15,10 +15,12 @@ export const Head = () => {
 
     return (
         <Header>
-            <AiFillPrinter />
-            <RiBattery2ChargeFill />
-            <RiSignalWifiFill />
-            {clock}
+            <span><AiFillPrinter /></span>
+            <span>
+                <RiSignalWifiFill />
+                <RiBattery2ChargeFill />
+                {clock}
+            </span>
         </Header>
     )
 }
