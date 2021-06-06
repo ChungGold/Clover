@@ -13,14 +13,24 @@ const Header = styled.header`
     width: 100%;
     height: 2.5%;
 
-    background-color: white;
-    color: black;
+    background-color: lightgray;
+    color: #3F3D53;
 
-    border-bottom: #A6F6C9 1px solid;
+    border-bottom: #A6F6C9 2px solid;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 1rem;
+
+    span {
+        display: flex;
+    }
+
+    #meters {
+        width: 7.5%;
+        justify-content: space-evenly;
+    }
 `
 
 const Nav = styled.nav`
@@ -49,16 +59,18 @@ const Main = styled.main`
 const Order = styled.section`
     width: 25%;
     height: 100%;
-    border: #A6F6C9 1px solid;
+    font-size: 1.25rem;
 
     background-color: white;
 
-    #currentOrder {
+    #orderTitle {
         height: 5%;
 
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        padding: 0.5rem;
 
         span {
             width: 30%;
@@ -69,46 +81,68 @@ const Order = styled.section`
         }
     }
 
-    div {
-        width: 100%;
-        height: 33.33%;
-        border: #A6F6C9 1px solid;
+    #currentOrder {
+        height: 61.66%;
+        padding: 0.5rem;
+    }
+
+    #totals {
+        height: 13.33%;
+
+        display: flex;
+        flex-flow: row wrap;
 
         div {
-            height: 50%;
+            width: 50%;
+            height: 100%;
+
+            padding: 0.5rem;
+
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-evenly;
+        }
+
+        #price {
+            align-items: flex-end;
+        }
+    }
+
+    #payButtons {
+        height: 20%;
+        border: 1px solid gray;
+        color: gray;
+
+        span {
+
             width: 100%;
+            display: flex;
+            justify-content: space-evenly;
 
-            span {
-
-                width: 100%;
-                display: flex;
-                justify-content: space-evenly;
-
-                button {
-                    border: 1px solid gray;
-                    border-radius: 5px;
-                    width: 22%;
-                    height: 40px;
-
-                    background-color: white;
-                }
+            button {
+                border: 1px solid gray;
+                border-radius: 5px;
+                width: 22%;
+                height: 40px;
+                background-color: white;
+                color: gray;
             }
+        }
 
-            div {
+        div {
 
-                width: 100%;
-                display: flex;
-                justify-content: space-evenly;
-                align-items: center;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
 
-                button {
-                    border: 1px solid gray;
-                    border-radius: 5px;
-                    width: 47%;
-                    height: 40px;
-
-                    background-color: white;
-                }
+            button {
+                border: 1px solid gray;
+                border-radius: 5px;
+                width: 47%;
+                height: 40px;
+                background-color: white;
+                color: gray;
             }
         }
     }

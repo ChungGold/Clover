@@ -16,7 +16,7 @@ export const Head = () => {
     return (
         <Header>
             <span><AiFillPrinter /></span>
-            <span>
+            <span id = 'meters'>
                 <RiSignalWifiFill />
                 <RiBattery2ChargeFill />
                 {clock}
