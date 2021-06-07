@@ -78,7 +78,7 @@ const Main = styled.main`
     display: flex;
     flex-flow: wrap row;
 
-    border: #A6F6C9 1px solid;
+    border-top: lightgray 3px solid;
 `
 
 const Order = styled.section`
@@ -87,6 +87,7 @@ const Order = styled.section`
     font-size: 1.25rem;
 
     background-color: white;
+    border-right: lightgray 3px solid;
 
     #orderTitle {
         height: 5%;
@@ -188,13 +189,29 @@ const Order = styled.section`
 const Menu = styled.section`
     width: 75%;
     height: 100%;
-    border: #A6F6C9 1px solid;
 
     background-color: white;
+
+    padding: 1rem;
+
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5%;
+    column-gap: 0.5rem;
+    row-gap: 1rem;
 `
 
-const Footer = styled.footer`
+const CategoryCard = styled.section`
+    font-size: 1.25rem;
 
+    border: 1px solid lightgray;
+    border-left: solid #A6F6C9 1rem;
+    padding-left: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 4px 3px lightgray;
+
+    display: flex;
+    align-items: center;
 `
 
-export { Container, Header, Nav, Main, Order, Menu }
+export { Container, Header, Nav, Main, Order, Menu, CategoryCard }
