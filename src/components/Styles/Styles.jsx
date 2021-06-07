@@ -11,7 +11,7 @@ const Container = styled.div`
 
 const Header = styled.header`
     width: 100%;
-    height: 2.5%;
+    height: 3%;
 
     background-color: lightgray;
     color: #3F3D53;
@@ -35,7 +35,8 @@ const Header = styled.header`
 
 const Nav = styled.nav`
     width: 100%;
-    height: 7.5%;
+    height: 7%;
+    font-size: 1.3rem;
 
     background-color: white;
     color: gray;
@@ -44,6 +45,30 @@ const Nav = styled.nav`
     justify-content: space-between;
     align-items: center;
 
+    #hamMenu {
+        width: 15%;
+
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    form {
+        width: 30%;
+
+        display: flex;
+        justify-content: space-evenly;
+
+        #searchBar {
+
+            display: flex;
+            justify-content: space-between;
+
+            input {
+                border: none;
+                color: lightgray;
+            }   
+        }
+    }
 `
 
 const Main = styled.main`
@@ -82,12 +107,12 @@ const Order = styled.section`
     }
 
     #currentOrder {
-        height: 61.66%;
+        height: 60%;
         padding: 0.5rem;
     }
 
     #totals {
-        height: 13.33%;
+        height: 15%;
 
         display: flex;
         flex-flow: row wrap;
@@ -96,7 +121,7 @@ const Order = styled.section`
             width: 50%;
             height: 100%;
 
-            padding: 0.5rem;
+            padding: 1rem;
 
             display: flex;
             flex-flow: column wrap;
@@ -110,12 +135,22 @@ const Order = styled.section`
 
     #payButtons {
         height: 20%;
-        border: 1px solid gray;
         color: gray;
+
+        display: flex;
+        align-content: space-between;
+        flex-flow: column wrap;
+
+        p {
+            height: 20%;
+            padding-left: 0.5rem;
+        }
 
         span {
 
             width: 100%;
+            height: 33%;
+
             display: flex;
             justify-content: space-evenly;
 
@@ -132,6 +167,8 @@ const Order = styled.section`
         div {
 
             width: 100%;
+            height: 33%;
+
             display: flex;
             justify-content: space-evenly;
             align-items: center;
