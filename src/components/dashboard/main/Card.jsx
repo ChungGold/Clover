@@ -1,4 +1,4 @@
-import { CategoryCard } from '../Styles/Styles'
+import { CategoryCard } from '../../Styles/Styles'
 
 export const Card = props => {
     return(

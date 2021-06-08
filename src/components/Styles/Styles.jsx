@@ -214,4 +214,19 @@ const CategoryCard = styled.section`
     align-items: center;
 `
 
-export { Container, Header, Nav, Main, Order, Menu, CategoryCard }
+const OrderMenu = styled.section`
+    width: 75%;
+    height: 100%;
+
+    background-color: white;
+
+    padding: 1rem;
+
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 15% 15% 15% 15% 15% 15% 15%;
+    column-gap: 0.5rem;
+    row-gap: 1rem;
+`
+
+export { Container, Header, Nav, Main, Order, Menu, CategoryCard, OrderMenu }

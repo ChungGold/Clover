@@ -1,12 +1,13 @@
 import { Main } from '../Styles/Styles'
 import { Transaction } from './Order'
-import { Food } from './Menu'
+import { Food } from './main/Menu'
+import { FoodItems } from './menu/FoodItems'
 
 export const Dashboard = () => {
     return (
         <Main>
             <Transaction />
-            <Food />
+            <FoodItems />
         </Main>
     )
 }
