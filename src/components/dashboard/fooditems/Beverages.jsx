@@ -1,22 +1,22 @@
 export const Beverages = [
     {
-        drink: "House Milk Tea",
+        food: "House Milk Tea",
         price: "$3.99"
     },
     {
-        drink: "House Green Milk Tea",
+        food: "House Green Milk Tea",
         price: "$3.99"
     },
     {
-        drink: "Black Tea",
+        food: "Black Tea",
         price: "$2.99"
     },
     {
-        drink: "Green Tea",
+        food: "Green Tea",
         price: "$2.99"
     },
     {
-        drink: "Soda",
+        food: "Soda",
         price: "$1.99"
     }
 ]

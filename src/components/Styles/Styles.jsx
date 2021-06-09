@@ -220,13 +220,54 @@ const OrderMenu = styled.section`
 
     background-color: white;
 
-    padding: 1rem;
+    div {
+        width: 100%;
+        height: 95%;
+        padding: 1rem;
 
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
-    grid-template-rows: 15% 15% 15% 15% 15% 15% 15%;
-    column-gap: 0.5rem;
-    row-gap: 1rem;
+        display: grid;
+        grid-template-columns: 23% 23% 23% 23%;
+        grid-template-rows: 14% 14% 14% 14% 14% 14% 14% 14%;
+        column-gap: 0.5rem;
+        row-gap: 1rem;
+    }
 `
 
-export { Container, Header, Nav, Main, Order, Menu, CategoryCard, OrderMenu }
+const Quantity = styled.section`
+    width: 100%;
+    height: 5%;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+
+    span {
+        width: 17%;
+        height: 400%;
+        text-align: center;
+        border-radius: 5px;
+        line-height: 2rem;
+    }
+`
+
+const ItemCard = styled.section`
+    font-size: 1.25rem;
+
+    border: 1px solid lightgray;
+    border-left: solid #A6F6C9 1rem;
+    padding-left: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 4px 3px lightgray;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column wrap;
+
+    #price {
+        color: gray;
+    }
+`
+
+export { Container, Header, Nav, Main, Order, Menu, CategoryCard, OrderMenu, Quantity, ItemCard }

@@ -1,42 +1,42 @@
 export const Alcohol = [
     {
-        drink: "Sapporo Beer",
+        food: "Sapporo Beer",
         price: "$3.99"
     },
     {
-        drink: "Asahi Beer",
+        food: "Asahi Beer",
         price: "$3.99"
     },
     {
-        drink: "Kirin Lite Beer",
+        food: "Kirin Lite Beer",
         price: "$3.99"
     },
     {
-        drink: "Orion Beer",
+        food: "Orion Beer",
         price: "$4.99"
     },
     {
-        drink: "Sapporo BLACK",
+        food: "Sapporo BLACK",
         price: "$7.99"
     },
     {
-        drink: "Premium Ginjo Sake",
+        food: "Premium Ginjo Sake",
         price: "$13.99"
     },
     {
-        drink: "Mio Sake",
+        food: "Mio Sake",
         price: "$14.99"
     },
     {
-        drink: "Strawberry Nigori Sake",
+        food: "Strawberry Nigori Sake",
         price: "$14.99"
     },
     {
-        drink: "Kikusui Sake",
+        food: "Kikusui Sake",
         price: "$15.99"
     },
     {
-        drink: "Hot Sake",
+        food: "Hot Sake",
         price: "$4.99"
     }
 ]
