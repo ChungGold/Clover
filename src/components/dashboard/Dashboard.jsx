@@ -9,7 +9,6 @@ export const Dashboard = () => {
         <Main>
             <Transaction />
             <Food />
-            <FoodItems />
         </Main>
     )
 }
